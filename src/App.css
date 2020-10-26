@@ -103,7 +103,7 @@ position: fixed;
   padding:15px 30px;
   text-decoration: none;
   transition: all ease-in-out 0.1s;
-
+  display:inline-block;
 } .home-gradient-button:hover {
   background-color: rgb(230, 230, 230);
   cursor: pointer;

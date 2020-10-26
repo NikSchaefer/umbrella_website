@@ -96,8 +96,6 @@ position: fixed;
   width:70%;
 }
 .home-gradient-button {
-  display:inline-block;
-  border:none;
   background-color: white;
   font-size: 30px;
   border-radius: 42px;
@@ -105,13 +103,14 @@ position: fixed;
   padding:15px 30px;
   text-decoration: none;
   transition: all ease-in-out 0.1s;
-  display: inline-block;
-  vertical-align: top;
 
 } .home-gradient-button:hover {
   background-color: rgb(230, 230, 230);
   cursor: pointer;
   transform: scale(1.05);
+}
+.down-arrow {
+  cursor: pointer;
 }
 @media screen and (max-width:650px){
   .home-gradient-title {

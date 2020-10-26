@@ -1,13 +1,14 @@
 import React from 'react'
 import { animateScroll as scroll } from "react-scroll";
 import Down from '../Down.svg'
+import downArrow from '../downArrow.svg'
 
 const Home = () => {
-    const toDownload = () => { 
+    const toDownload = () => {
         scroll.scrollToBottom()
     }
-    const learnMore = () => { 
-        scroll.scrollTo(1000, 0)
+    const learnMore = () => {
+        scroll.scrollTo(800, 0)
     }
 
     return (
@@ -17,8 +18,9 @@ const Home = () => {
                 <p className='home-gradient-paragraph'>Never forget your umbrella again,
                 The Umbrella sends you a notification in the morning if you should take
                 an umbrella to work </p>
-                <p className='home-gradient-button' onClick={learnMore}><b>LEARN MORE</b></p>
+                <p className='home-gradient-button' onClick={learnMore} ><b>LEARN MORE</b></p>
                 <p className='home-gradient-button' onClick={toDownload} style={{ backgroundColor: '#01caff', color: 'white' }}><b>DOWNLOAD</b></p>
+                <img src={downArrow} className='down-arrow' onClick={learnMore} alt='' />
             </div>
 
             <div className='home-section' style={{ color: 'black' }}>
@@ -45,13 +47,13 @@ const Home = () => {
                     <p style={{ fontSize: '30px' }}>ANDROID</p>
                     <hr style={{ width: '20%' }} />
                     <img src={Down} alt='' />
-                    
+
                 </div>
                 <div className='card'>
                     <p style={{ fontSize: '30px' }}>DESKTOP</p>
                     <hr style={{ width: '20%' }} />
                     <p className='card-p'>Coming Soon</p>
-                    
+
 
                 </div>
             </div>

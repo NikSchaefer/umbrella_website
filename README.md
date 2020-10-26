@@ -1,11 +1,11 @@
 # The Umbrella Project
 App on The google play store
 
-Website Link
+## Website Link
 https://theumbrella.vercel.app/
 
-Github Repositories
-https://github.com/NikSchaefer/umbrella
+## Github Repositories
+https://github.com/NikSchaefer/umbrella <br />
 https://github.com/NikSchaefer/umbrella_website
 
 ## What is the Umbrella Project

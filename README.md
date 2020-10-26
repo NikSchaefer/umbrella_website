@@ -1,7 +1,12 @@
 # The Umbrella Project
 App on The google play store
 
+Website Link
 https://theumbrella.vercel.app/
+
+Github Repositories
+https://github.com/NikSchaefer/umbrella
+https://github.com/NikSchaefer/umbrella_website
 
 ## What is the Umbrella Project
  The umbrella project is an App Available on Google Play(Soon) that Accesses the Open Weather API. 

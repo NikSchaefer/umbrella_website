@@ -16,7 +16,7 @@ const NavBar = () => {
     return (
         <div>
             <header id='header'>
-                <p className='nav-title'>UMBRELLA</p>
+                <p className='nav-title' onClick={scroll.scrollToTop}>UMBRELLA</p>
                 <p className='nav-link' onClick={scroll.scrollToBottom}>DOWNLOAD</p>
             </header>
 

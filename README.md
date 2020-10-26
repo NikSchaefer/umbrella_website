@@ -10,6 +10,8 @@ App on The google play store
  ## Stack
  Developed with React Native, Expo CLI, VS Code, Android Studio
  
+ Website Developed with React, HTML and CSS, Javascript
+ 
 
 ## License
 This project uses the MIT license.
